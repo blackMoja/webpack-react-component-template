@@ -4,7 +4,7 @@
   "main": "./dist/index.js",
   "license": "MIT",
   "scripts": {
-    "build": "webpack --mode development"
+    "build": "webpack --mode production"
   },
   "peerDependencies": {
     "react": "^18.2.0",
@@ -19,6 +19,8 @@
     "@types/react": "^18.0.25",
     "@types/webpack": "^5.28.0",
     "babel-loader": "^9.1.0",
+    "esbuild-loader": "^2.20.0",
+    "fork-ts-checker-webpack-plugin": "^7.2.13",
     "ignore-loader": "^0.1.2",
     "mini-css-extract-plugin": "^2.7.0",
     "react": "^18.2.0",

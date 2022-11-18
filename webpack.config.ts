@@ -2,7 +2,8 @@ import { resolve } from 'path';
 import type { Configuration } from 'webpack';
 
 const config: Configuration = {
-  entry: './src/index.ts',
+  context: __dirname,
+   entry: './src/components/index.ts',
   name: 'webpack-example',
   output: {
     path: resolve(__dirname, 'dist'),
@@ -22,7 +23,7 @@ const config: Configuration = {
   module: {
     rules: [
       {
-        test: /\.(jsx|js|tsx|ts)$/,
+        test: /\.js$/,
         exclude: /node_modules/,
         use: {
           loader: 'babel-loader',

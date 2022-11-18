@@ -9,7 +9,8 @@
     "allowJs": true,
     "moduleResolution": "node",
     "declaration": true,
-    "declarationDir": "dist"
+    "declarationDir": "./dist",
+    "esModuleInterop": true
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules", "src/storybook"],
