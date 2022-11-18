@@ -19,7 +19,7 @@
     "@types/react": "^18.0.25",
     "@types/webpack": "^5.28.0",
     "babel-loader": "^9.1.0",
-    "clean-webpack-plugin": "^4.0.0",
+    "ignore-loader": "^0.1.2",
     "mini-css-extract-plugin": "^2.7.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
