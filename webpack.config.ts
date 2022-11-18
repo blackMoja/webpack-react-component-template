@@ -1,8 +1,6 @@
 import { resolve } from 'path';
 import type { Configuration } from 'webpack';
 
-console.log(__dirname);
-
 const config: Configuration = {
   entry: './src/index.ts',
   name: 'webpack-example',
@@ -39,7 +37,7 @@ const config: Configuration = {
       },
       {
         loader: 'ts-loader',
-        test: /\.tsx?$/,
+        test: /\.(tsx|ts)$/,
       },
       {
         enforce: 'pre',
