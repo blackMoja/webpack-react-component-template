@@ -8,7 +8,7 @@ const resolve = (_path: string) => path.resolve(__dirname, _path);
 const config: Configuration = {
   entry: './src/index.ts',
   output: {
-    path: resolve('../dist'),
+    path: resolve('./dist'),
     filename: 'index.js',
     umdNamedDefine: true,
     library: {
