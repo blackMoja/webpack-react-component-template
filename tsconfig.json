@@ -10,9 +10,10 @@
     "moduleResolution": "node",
     "declaration": true,
     "declarationDir": "./dist",
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "resolveJsonModule": true
   },
-  "include": ["src/**/*"],
+  "include": ["src/**/*.ts", "src/**/*.tsx"],
   "exclude": ["node_modules", "src/storybook"],
   "ts-node": {
     "compilerOptions": {
