@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "types": "./dist/index.d.ts",
   "main": "./dist/index.js",
+  "style": "./dist/style/index.css",
   "license": "MIT",
   "files": [
     "./dist"
@@ -24,6 +25,7 @@
     "@types/webpack": "^5.28.0",
     "babel-loader": "^9.1.0",
     "babel-plugin-import": "^1.13.5",
+    "copy-pkg-json-webpack-plugin": "^0.0.40",
     "esbuild-loader": "^2.20.0",
     "fork-ts-checker-webpack-plugin": "^7.2.13",
     "glob": "^8.0.3",

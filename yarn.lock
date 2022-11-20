@@ -1577,6 +1577,11 @@ convert-source-map@^1.7.0:
   resolved "https://registry.yarnpkg.com/convert-source-map/-/convert-source-map-1.9.0.tgz#7faae62353fb4213366d0ca98358d22e8368b05f"
   integrity sha512-ASFBup0Mz1uyiIjANan1jzLQami9z1PoYSZCiiYW2FczPbenXc45FZdBZLzOT+r6+iciuEModtmCti+hjaAk0A==
 
+copy-pkg-json-webpack-plugin@^0.0.40:
+  version "0.0.40"
+  resolved "https://registry.yarnpkg.com/copy-pkg-json-webpack-plugin/-/copy-pkg-json-webpack-plugin-0.0.40.tgz#75919e4374c6ba48f4ba5f91326a60ef0f645414"
+  integrity sha512-Zl6PIZvE6RylFP0n65bq002W5lWziJ9xb5X9b7fIpeRdxTC3tQ5d7Tve+D18RuU67vfuBFKIbTl9E0iAx6J78w==
+
 core-js-compat@^3.25.1:
   version "3.26.1"
   resolved "https://registry.yarnpkg.com/core-js-compat/-/core-js-compat-3.26.1.tgz#0e710b09ebf689d719545ac36e49041850f943df"
