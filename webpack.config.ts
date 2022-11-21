@@ -1,6 +1,7 @@
 import { ProvidePlugin } from 'webpack';
 import path from 'path';
 import CopyPkgJson from 'copy-pkg-json-webpack-plugin';
+import CopyWebpackPlugin from 'copy-webpack-plugin';
 import packageJson from './package.json';
 import { packageProduction } from './package.production';
 import type { Configuration } from 'webpack';
@@ -63,6 +64,15 @@ const config: Configuration = {
     }),
     new CopyPkgJson({
       new: packageProduction,
+    }),
+    new CopyWebpackPlugin({
+      patterns: [
+        {
+          from: resolve('./src/style/index.css'),
+          to: resolve('./dist/style/index.css'),
+          toType: 'file',
+        },
+      ],
     }),
   ],
 };
