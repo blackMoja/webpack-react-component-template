@@ -2,7 +2,7 @@ import { ProvidePlugin } from 'webpack';
 import path from 'path';
 import CopyPkgJson from 'copy-pkg-json-webpack-plugin';
 import packageJson from './package.json';
-import { packageProduction } from './package-production';
+import { packageProduction } from './package.production';
 import type { Configuration } from 'webpack';
 
 const resolve = (_path: string) => path.resolve(__dirname, _path);

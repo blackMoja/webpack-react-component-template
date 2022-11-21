@@ -3,7 +3,7 @@ import packageJson from './package.json';
 type PackageJsonType = Record<keyof typeof packageJson, unknown>;
 
 const deleteDist = (path: string) =>
-  path.includes('./dist') ? path.replace('./dist', '') : path;
+  path.includes('./dist') ? path.replace('./dist', '.') : path;
 
 export const packageProduction: PackageJsonType = {
   name: packageJson.name,
