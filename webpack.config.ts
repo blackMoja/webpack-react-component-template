@@ -28,8 +28,12 @@ const config: Configuration = {
     },
   },
   resolve: {
-    modules: [resolve('../src'), 'node_modules'],
+    modules: [resolve('./src'), 'node_modules'],
     extensions: ['.ts', '.tsx', '.js', '.css'],
+    alias: {
+      '@/*': resolve('./src'),
+      '@@/*': resolve('./'),
+    },
   },
   module: {
     rules: [
