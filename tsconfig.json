@@ -13,8 +13,18 @@
     "esModuleInterop": true,
     "resolveJsonModule": true
   },
-  "include": ["src/**/*.ts", "src/**/*.tsx"],
-  "exclude": ["node_modules", "src/storybook"],
+  "include": ["./src"],
+  "exclude": [
+    "./dist",
+    "./node_modules",
+    "./src/storybook",
+    "./src/**/*.test.tsx",
+    "./src/**/*.stories.tsx",
+    "./src/**/*.codegen.ts",
+    "./src/foundation/breakpoints/breakpoints.ts",
+    "./src/foundation/colors/colors.ts",
+    "./src/foundation/typography/typography.ts"
+  ],
   "ts-node": {
     "compilerOptions": {
       "module": "commonjs"

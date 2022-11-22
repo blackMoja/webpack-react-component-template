@@ -69,7 +69,7 @@ const config: Configuration = {
       patterns: [
         {
           from: resolve('./src/style/index.css'),
-          to: resolve('./dist/style/index.css'),
+          to: resolve('./dist/index.css'),
           toType: 'file',
         },
       ],
